@@ -26,9 +26,9 @@ const TransactionManagementDashboard = () => {
 
     const handleSearch = () => {
         setFilteredData(data.filter(data => 
-        data.customer.name.includes(filterData)
-        || data.id.includes(filterData)
-        || data.customer.email.includes(filterData)))
+        data.customer.name.toLowerCase().includes(filterData.toLocaleLowerCase())
+        || data.id.toLowerCase().includes(filterData.toLowerCase())
+        || data.customer.email.toLowerCase().includes(filterData.toLowerCase())))
     }
     
     const handleDeleteTransaction = (transactionId: string) => {
