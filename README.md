@@ -1,33 +1,4 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
-# rpl11-quiz3-lowen
+<img width="1716" height="759" alt="image" src="https://github.com/user-attachments/assets/6f3678ea-ee49-40e1-a493-868890862ec1" />
+<img width="1720" height="710" alt="image" src="https://github.com/user-attachments/assets/66928aab-85a1-4a5b-9dc4-62771e70bee1" />
+<img width="1720" height="722" alt="image" src="https://github.com/user-attachments/assets/be2bc5c2-e60d-4783-ab0b-c3dd1a70f555" />
+<img width="1718" height="931" alt="image" src="https://github.com/user-attachments/assets/a7dcdbc4-554a-4c7f-8dd7-47ed2585ed4b" />
